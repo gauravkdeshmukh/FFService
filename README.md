@@ -3,8 +3,8 @@
 ## Start Application
 
 - npm install
-- npm run
+- npm start
 
 ## View Api Documentation
-localhost:12300/api-docs
+Go to localhost:12300/api-docs in Browser
 
