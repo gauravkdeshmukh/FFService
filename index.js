@@ -5,7 +5,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 const port = 12300;
 
-let featureFlags = [{name: "useAwesomeGames", value: 11}, {name: "useNewFeature", value: 0}];
+let featureFlags = [{name: "useAwesomeGames", value: 11}, {name: "useNewFeature", value: 0}, {name: "Identity_Information", value:3}];
 let validateRequest = (flag) => {
     if (!flag || flag.name === undefined || flag.value === undefined) {
         return false
